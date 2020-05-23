@@ -1,0 +1,12 @@
+xmodel,zat_model
+xmodel,sg_viewmodel_staff
+xmodel,sg_weapon_staff
+fx,misc/ac130_trail_25
+xmodel,sg_dron
+fx,impacts/ac130_40mm_IR_impact
+fx,stargate/dron
+xmodel,weapon_ac130
+material,hud_ac130
+fx,misc/ac130_trail_40
+material,ui_class_image1
+material,ui_class_image2

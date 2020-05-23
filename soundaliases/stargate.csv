@@ -1,0 +1,19 @@
+name,sequence,file,vol_min,vol_max,vol_mod,pitch_min,pitch_max,dist_min,dist_max,channel,type,probability,loop,masterslave,loadspec,subtitle,compression,secondaryaliasname,volumefalloffcurve,startdelay,speakermap,reverb,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage
+
+#DRONE
+mp_hind_helicopter,,stargate/jumper/engine_loop.wav,1,,vehicle,1,,450,8000,vehicle,streamed,,rlooping,0.85,all_mp,,,,helicopter1,,,,0.5,,,750,4000,0.65
+#weap_hind_rocket_loop_close,,stargate/drone/drone_loop_close.wav,0.8,0.85,wpnai,0.95,1.05,30,2000,auto,,,looping,,,,,,
+#weap_hind_rocket_loop_dist,,stargate/drone/drone_loop_dist.wav,0.8,0.85,wpnai,0.95,1.05,50,8400,auto,,,looping,,,,,,
+
+#JUMPER
+weap_hind_missile_fire,,stargate/drone/drone_fire.wav,0.9,0.95,wpnplyr,1,1.1,360,12000,weapon,,,,,all_mp,,,,,,,,,,,,,
+
+#JUMPER2
+#mp_cobra_helicopter,,vehicles/veh_cobra_move_loop_v3.wav,1,,vehicle,1.15,,450,8000,vehicle,streamed,,rlooping,0.85,all_mp,,,,helicopter1,,,,0.5,,,750,4000,0.65
+#weap_m197_cannon_fire,,cobra/weap_m197_cannon_fire.wav,0.7,0.75,wpnplyr,1.3,1.4,360,8000,auto2,,,,,all_mp,,,,,,,,0.4,,,,,
+#weap_cobra_missle_fire,,weapons/javelin/weap_javelin_ignition_v1.wav,0.99,0.99,wpnplyr,0.95,1.05,360,12000,weapon,,,,,all_mp,,,,,,,,0.4,,,,,
+#weap_cobra_missile_fire,,weapons/javelin/weap_javelin_ignition_v1.wav,0.99,0.99,wpnplyr,0.95,1.05,360,12000,weapon,,,,,all_mp,,,,,,,,0.4,,,,,
+
+#STAFF
+weap_staff_fire_plr,,stargate/staff/weap_staff_fire.wav,0.81,0.99,wpnplyr,0.95,1.05,500000,,local,streamed,,,0.95,,,,,weapon2,,,,
+weap_staff_fire_npc,,stargate/staff/weap_staff_fire.wav,0.99,0.99,wpnai,0.95,1.05,180,10920,weapon,streamed,,,1,all_mp,,,,weapon4

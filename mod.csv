@@ -1,0 +1,7 @@
+menufile,ui_mp/scriptmenus/changeclass_opfor.menu
+menufile,ui_mp/scriptmenus/changeclass_marines.menu
+
+menufile,ui_mp/hud.menu
+
+xmodel,body_mp_sas_urban_sniper
+xmodel,viewhands_black_kit
